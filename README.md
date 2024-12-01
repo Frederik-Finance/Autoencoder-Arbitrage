@@ -49,7 +49,12 @@ The model demonstrates strong performance characteristics:
 
 ![Training Loss](images/train_val_loss.png)
 
-2. **Portfolio Performance**: The strategy consistently outperforms both an equal-weighted ETF portfolio and the SPY benchmark.
+2. **Portfolio Performance**: 
+   - Outperforms equal-weighted ETF benchmark by ~90bps
+   - Shows resilience during market drawdowns (e.g., August 2024)
+   - Demonstrates more stable return pattern compared to benchmarks
+   - Particularly strong performance during market recoveries
+   - Lower drawdowns compared to SPY during volatile periods
 
 ![Portfolio Performance](images/benchmark_performance.png)
 
@@ -117,7 +122,7 @@ PORTFOLIO_SIZE = 12
 ## Results
 
 The strategy demonstrates:
-- Consistent outperformance vs benchmarks
+- Consistent outperformance vs equal weighted benchmark
 - Lower correlations among selected stocks
 - Robust performance across different market conditions
 - Effective identification of unique price patterns
